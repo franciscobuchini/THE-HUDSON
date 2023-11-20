@@ -1,0 +1,53 @@
+.dailydeals-container {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.dailydeals-text {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 3rem 1rem 3rem 1rem;
+}
+
+.dailydeal {
+
+    width: 22rem;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.dailydeal h3 {
+    font-size: 1.5rem;
+    color: #3a4d39;
+}
+
+.dailydeal h4 {
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.dailydeal p {
+    font-size: 1.2rem;
+    color: #3a4d39;
+
+}
+
+.dailydeal img {
+    border-radius: 1rem;
+    margin: 1rem;
+    z-index: 1;
+    width: 22rem;
+    filter: drop-shadow(0 0 1rem #00000011);
+    transition-duration: 0.3s;
+}
+
+.dailydeal img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 1.5em #3a4d3973);
+    scale: 1.02;
+}

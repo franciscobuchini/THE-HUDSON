@@ -1,0 +1,39 @@
+.menu-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px #ffffff5a;
+    padding: 0.4rem;
+    justify-content: space-between;
+}
+
+.menu-subcontainer {
+    display: flex;
+}
+
+.menu-image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+    background-image: url(../assets/Image02.png);
+    margin-right: 1rem;
+}
+
+.menu-text h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.menu-text p {
+    color: #3a4d39;
+    font-size: 1.3rem;
+}
+
+.menu-price {
+    font-size: 1.3rem;
+    font-weight: 600    ;
+    color: #ffffff;
+    padding-right: 4rem;
+    display: flex;
+    place-items: center;
+}
